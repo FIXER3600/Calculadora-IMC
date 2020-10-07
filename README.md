@@ -17,7 +17,9 @@ Body Mass Index Calculator in a form format developed with HTML5, CSS3 and Javas
 
 ![index_calcu](https://user-images.githubusercontent.com/47544503/95280990-9a956f80-082c-11eb-87e2-2835734cad53.png)
 
-3. Clique no botão "CALCULAR IMC" e revele o resultado.\
+3. Clique no botão "CALCULAR IMC" ou aperte a tecla "Enter" no teclado e revele o resultado.\
+
+![result](https://user-images.githubusercontent.com/47544503/95281171-ec3dfa00-082c-11eb-95a8-0e48beba1da1.png)
 
 
 
