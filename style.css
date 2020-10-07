@@ -41,7 +41,7 @@ body{
 }
 #alt{
     position: absolute;
-    bottom:79%;
+    bottom:83%;
     right: 82%;
     animation-name:fade ;
     animation-duration: 2000;
