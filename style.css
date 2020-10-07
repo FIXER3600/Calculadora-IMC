@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #282C34;
+}
+#label{
+    font-size: 2em;
+}
+
+.form{
+    position: absolute;
+    right: 27%;
+    top: 28%;
+    padding-bottom: 0px;
+    background-color: #181d25;
+    min-height:360px;
+    width: 600px;
+    border-radius: 4px;
+    box-shadow: rgba(30, 30, 30, 0.3) 0px 6px 12px;
+}
+.topo{
+    position: absolute;
+   top:0;
+   
+   color: #f2f4f8;
+   width: 100%;
+   height: 50px;
+   text-align: center;
+   font-family: 'Montserrat', 'sans-serif';
+   font-size: 40px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+
+}
+#pes{
+    position: absolute;
+    bottom: 53%;
+    right: 84%;
+    animation-name:fade ;
+    animation-duration: 2000;
+}
+#alt{
+    position: absolute;
+    bottom:79%;
+    right: 82%;
+    animation-name:fade ;
+    animation-duration: 2000;
+}
+.altura, .peso{
+    color: #f2f4f8;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 20px;
+    animation-name:fade ;
+    animation-duration: 2000;
+}
+#altura, #peso{
+    position: absolute;
+    left:8%;
+    padding: .5 1em;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 1px #000000;
+    background-color: #6a6ffa;
+    color: #f2f4f8;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    border: 0;
+    animation-name:fade ;
+    animation-duration: 2000;
+}
+#peso{
+    bottom: 36%;
+}
+#altura{
+    bottom: 65%;
+}
+
+.botao{
+    background-color: #5b60ff;
+    text-decoration: none;
+    color: #f2f4f8;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 1px 0px 2px 1px #000000;
+    padding: 5px;
+    position: absolute;
+    left:31%;
+    bottom: 13%;
+    margin: 0px;
+    width: 220px;
+    height:40px;
+    font-size: 25px;
+    border-radius: 6px;
+    border: 0;
+
+}
+.botao:hover{
+    background-color: #4549b8;
+}
+#return{
+    background-color: #5b60ff;
+    text-decoration: none;
+    color: #f2f4f8;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 1px 0px 2px 1px #000000;
+    padding: 5px;
+    position: absolute;
+    left:39%;
+    bottom: 12%;
+    margin: 0px;
+    width: 325px;
+    height:40px;
+    font-size: 25px;
+    border-radius: 6px;
+    border: 0;
+}
+#return:hover{
+    background-color: #4549b8;
+}
+.botao:hover{
+    background-color: #4549b8;
+}
+#result{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.rodape{
+    bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+    position:fixed;
+    width: 100%;
+    height: 30px;
+    
+    color: #f2f4f8;
+    text-align: center;
+    padding-top: 30px;
+}
+#github{
+    text-decoration:none ;
+    color: #00e4c6;
+}
+.erro{ 
+    background-color: #181d25;
+    color: red;
+    font-size: 17px;
+    text-align: center;
+    opacity: 2.5;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top:65%;
+    left: 26%;
+}
+.erro-pes{
+    background-color: #181d25;
+    color: red;
+    font-size: 17px;
+    text-align: center;
+    opacity: 2.5;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top:65%;
+    left: 8%;
+}
+.erro-alt{
+    background-color: #181d25;
+    color: red;
+    font-size: 17px;
+    text-align: center;
+    opacity: 2.5;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 8%;
+    top:35%;
+}
+.flip-box {
+  background-color: transparent;
+  width: 500px;
+  height: 80px;
+  perspective: 1000px;
+  position: absolute;
+  left:31%;
+  bottom:47%;
+  padding: 1em;
+    text-align: center;
+    color: #f2f4f8;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#imc{
+    font-size: 4em;
+  
+}
+#status{
+    font-size: 2.5em;
+   
+}
+@media only screen and (max-width:500px){
+    .flip-box {
+        left:14%;
+        top: 73%;
+        bottom:1%;
+        width: 300px;
+       height: 130px;
+      }
+      .form{
+          height: 500px;
+        left: 1%;
+        top: 25%;
+      }
+      #altura, #peso{
+        width: 300px;
+      }
+      #peso{
+          bottom: 40%;
+      }
+      #alt{
+          top: 10%;
+      }
+      .botao{
+          bottom: 33%;
+          left: 15%;
+      }
+      .rodape{
+        bottom: 33%;
+        right: 15%;
+      }
+}
+
+
+
+
+
+
+
+/*.flip-box-back {
+    font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+  background-color: #5b60ff;
+  color:#f2f4f8;
+  transform: rotateY(180deg);
+  text-align: center;
+
+}*/

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" sizes="57x57" href="./icon/apple-icon-57x57.png" type="image/x-icon">
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de IMC</title>
+</head>
+
+<body>
+  <header>
+    <div class="topo">Cálculo de Índice de <br>Massa Corporal (IMC)</div>
+  </header>
+  <div id="form">
+    <div class="form">
+      <div class="altura">
+        <label id="alt">Altura</label><br>
+      </div>
+      <br>
+      <input type="number" name="altura" id="altura" autofocus required><br><br><br><br><br>
+      <div class="erro-alt">Por favor, digite a altura.</div><br>
+      <div class="peso">
+        <label id="pes">Peso</label><br>
+      </div>
+      <br>
+      <input type="number" name="peso" id="peso" required>
+      <div class="erro-pes">Por favor, digite o peso.</div><br><br>
+      <div class="erro">Por favor, digite o peso e a altura.</div>
+      <br><br><br>
+      <button class="botao">CALCULAR IMC</button>
+    </div>
+  </div>
+  <br><br>
+  <div class="flip-box">
+        <label id="label">IMC: </label><br><br>
+        <span id="imc"></span><br><br> 
+        <span id="status"></span>
+  </div>
+  <button id="return">CALCULAR NOVAMENTE</button>
+  <br><br>
+  <footer>
+    <div class="rodape">
+      <label>Todos os direitos reservados — <a id="github" href="https://github.com/FIXER3600">Github</a></label>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
