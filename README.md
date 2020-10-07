@@ -6,3 +6,9 @@ __PTBR__\
 \
 __EN__\
 Body Mass Index Calculator in a form format developed with HTML5, CSS3 and Javascript.\
+
+#Como usar / Getting Started
+
+Baixe o projeto compactado pelo github e abra o arquivo index html.\
+
+
