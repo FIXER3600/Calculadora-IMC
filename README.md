@@ -9,6 +9,13 @@ Body Mass Index Calculator in a form format developed with HTML5, CSS3 and Javas
 
 # Como usar / Getting Started
 
-Baixe o projeto compactado pelo github e abra o arquivo index html.\
+1. Baixe o projeto compactado pelo github e abra o arquivo index html.\
+
+![index_open](https://user-images.githubusercontent.com/47544503/95280802-38d50580-082c-11eb-95fb-975ca584e237.png)
+
+2. Insira os valores da aultura (em metros) e do peso (em kg).
+
+
+
 
 
