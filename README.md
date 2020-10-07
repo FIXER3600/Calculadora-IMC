@@ -21,7 +21,7 @@ Body Mass Index Calculator in a form format developed with HTML5, CSS3 and Javas
 
 ![result](https://user-images.githubusercontent.com/47544503/95281171-ec3dfa00-082c-11eb-95a8-0e48beba1da1.png)
 
-4. O botão "CALCULAR NOVAMENTE" trará de volta o formulário inicial. / The "CALCULATE AGAIN" button will bring back the initial form.
+4. O botão "CALCULAR NOVAMENTE" trará de volta o formulário inicial. / The "CALCULAR NOVAMENTE" button will bring back the initial form.
 
 
 
