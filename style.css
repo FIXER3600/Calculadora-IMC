@@ -206,8 +206,8 @@ cursor: auto;
 }
 @media only screen and (max-width:500px){
     .flip-box {
-        left:14%;
-        top: 73%;
+        left:6%;
+        top: 36%;
         bottom:1%;
         width: 300px;
        height: 130px;
@@ -215,8 +215,8 @@ cursor: auto;
       .form{
           height: 450px;
           width: 370px;
-        left: 1%;
-        top: 25%;
+        left: 4%;
+        top: 33%;
       }
       #altura, #peso{
         width: 300px;
@@ -225,14 +225,18 @@ cursor: auto;
           bottom: 40%;
       }
       #alt{
-          top: 10%;
+          top: 16%;
+          right: 75%;
+      }
+      #pes{
+        right: 80%;
       }
       .botao{
-          bottom: 20%;
-          left: 15%;
+          bottom: 15%;
+          left: 20%;
       }
       .erro{
-          top: 60%;
+          top: 63%;
           right: 30%;
          
       }
@@ -244,14 +248,9 @@ cursor: auto;
         bottom: 0%;
         right: 0%;
       }
-    .flip-box{
-        top:36%;
-        left: 5%;
-    }
+    
     #return{
-        bottom:5%;
+        bottom:8%;
        left: 7%;
     }
 }
-
-
