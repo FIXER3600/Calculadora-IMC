@@ -9,7 +9,7 @@ Body Mass Index Calculator in a form format developed with HTML5, CSS3 and Javas
 
 # Como usar / Getting Started
 
-1. Baixe o projeto compactado pelo github e abra o arquivo index html. / Download the project compressed by github and open the index html file.
+1. Baixe o projeto compactado pelo github e abra o arquivo index html.Ou acesse o site: https://nervous-joliot-0bae6d.netlify.app/ / Download the project compressed by github and open the index html file. Or Access the website https://nervous-joliot-0bae6d.netlify.app/
 
 ![index_open](https://user-images.githubusercontent.com/47544503/95280802-38d50580-082c-11eb-95fb-975ca584e237.png)
 
