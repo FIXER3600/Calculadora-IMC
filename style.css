@@ -17,6 +17,7 @@ body{
     width: 600px;
     border-radius: 4px;
     box-shadow: rgba(30, 30, 30, 0.3) 0px 6px 12px;
+    padding: 20px;
 }
 .topo{
     position: absolute;
@@ -36,15 +37,11 @@ body{
     position: absolute;
     bottom: 53%;
     right: 84%;
-    animation-name:fade ;
-    animation-duration: 2000;
 }
 #alt{
     position: absolute;
     bottom:83%;
     right: 82%;
-    animation-name:fade ;
-    animation-duration: 2000;
 }
 .altura, .peso{
     color: #f2f4f8;
@@ -52,14 +49,13 @@ body{
     text-align: center;
     font-family: 'Montserrat', 'sans-serif';
     font-size: 20px;
-    animation-name:fade ;
-    animation-duration: 2000;
+
 }
 #altura, #peso{
     position: absolute;
     left:8%;
     padding: .5 1em;
-    width: 500px;
+    width: 83%;
     height: 40px;
     border-radius: 5px;
     box-shadow: 1px #000000;
@@ -69,8 +65,7 @@ body{
     text-decoration: none;
     font-size: 40px;
     border: 0;
-    animation-name:fade ;
-    animation-duration: 2000;
+   
 }
 #peso{
     bottom: 36%;
@@ -204,7 +199,7 @@ cursor: auto;
     font-size: 2.5em;
    
 }
-@media only screen and (max-height:700px) and (min-width:200px){
+@media screen and (max-height:700px) and (min-width:200px){
     .flip-box {
         left:6%;
         top: 36%;
