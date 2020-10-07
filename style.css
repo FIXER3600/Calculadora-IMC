@@ -204,13 +204,63 @@ cursor: auto;
     font-size: 2.5em;
    
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-height:700px) and (min-width:200px){
+    .flip-box {
+        left:6%;
+        top: 36%;
+        bottom:1%;
+        width: 80%;
+       height: 130px;
+      }
+      .form{
+          height: 450px;
+          width: 90%;
+        left: 4%;
+        top: 35%;
+      }
+      #altura, #peso{
+        width: 83%;
+      }
+      #peso{
+          bottom: 40%;
+      }
+      #alt{
+          top: 16%;
+          right: 75%;
+      }
+      #pes{
+        right: 80%;
+      }
+      .botao{
+          bottom: 17%;
+          left: 20%;
+      }
+      .erro{
+          top: 63%;
+          right: 30%;
+         
+      }
+      .erro-pes{
+          top: 60%;
+      }
+      .rodape{
+          bottom: -2%;
+       
+        width: 99%;
+      }
+    
+    #return{
+      top: 88%;
+       left: 5%;
+    }
+}
+@media only screen and (max-height:400px){
     .flip-box {
         left:6%;
         top: 36%;
         bottom:1%;
         width: 300px;
-       height: 130px;
+       height: 60%;
       }
       .form{
           height: 450px;
@@ -233,7 +283,7 @@ cursor: auto;
       }
       .botao{
           bottom: 15%;
-          left: 20%;
+          left:30%
       }
       .erro{
           top: 63%;
@@ -244,8 +294,8 @@ cursor: auto;
           top: 60%;
       }
       .rodape{
-          top: 91%;
-        bottom: 0%;
+          top: 100%;
+        bottom: 50%;
         right: 0%;
       }
     
