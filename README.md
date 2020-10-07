@@ -1,4 +1,4 @@
-![] (logos_code.png)
+![] (../logos_code.png)
 # Calculadora de IMC
 # Sobre/About
 __PTBR__\
