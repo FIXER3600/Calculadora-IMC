@@ -1,4 +1,4 @@
-<img src="./logos_code.png">
+![logos_code](https://user-images.githubusercontent.com/47544503/95279110-353f7f80-0828-11eb-8cf8-093372d6b998.png)
 # Calculadora de IMC
 # Sobre/About
 __PTBR__\
