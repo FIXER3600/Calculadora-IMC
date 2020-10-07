@@ -199,7 +199,7 @@ cursor: auto;
     font-size: 2.5em;
    
 }
-@media screen and (max-height:700px) and (min-width:200px){
+@media screen and (max-height:700px) and (min-width:200px) and (max-width:400px){
     .flip-box {
         left:6%;
         top: 36%;
