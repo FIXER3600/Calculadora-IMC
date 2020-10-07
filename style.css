@@ -107,7 +107,6 @@ body{
     text-decoration: none;
     color: #f2f4f8;
     font-family: 'Montserrat', sans-serif;
-    cursor: pointer;
     text-align: center;
     text-shadow: 1px 0px 2px 1px #000000;
     padding: 5px;
@@ -120,6 +119,8 @@ body{
     font-size: 25px;
     border-radius: 6px;
     border: 0;
+    cursor: pointer;
+cursor: auto;
 }
 #return:hover{
     background-color: #4549b8;
@@ -212,7 +213,8 @@ body{
        height: 130px;
       }
       .form{
-          height: 500px;
+          height: 450px;
+          width: 370px;
         left: 1%;
         top: 25%;
       }
@@ -226,27 +228,30 @@ body{
           top: 10%;
       }
       .botao{
-          bottom: 33%;
+          bottom: 20%;
           left: 15%;
       }
-      .rodape{
-        bottom: 33%;
-        right: 15%;
+      .erro{
+          top: 60%;
+          right: 30%;
+         
       }
+      .erro-pes{
+          top: 60%;
+      }
+      .rodape{
+          top: 91%;
+        bottom: 0%;
+        right: 0%;
+      }
+    .flip-box{
+        top:36%;
+        left: 5%;
+    }
+    #return{
+        bottom:5%;
+       left: 7%;
+    }
 }
 
 
-
-
-
-
-
-/*.flip-box-back {
-    font-family: 'Montserrat', sans-serif;
-font-size: 15px;
-  background-color: #5b60ff;
-  color:#f2f4f8;
-  transform: rotateY(180deg);
-  text-align: center;
-
-}*/
