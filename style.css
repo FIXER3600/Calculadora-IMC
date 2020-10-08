@@ -249,3 +249,63 @@ cursor: auto;
        left: 5%;
     }
 }
+@media screen and (min-width:200px) and (max-width: 500px){
+    .flip-box {
+        left:6%;
+        top: 36%;
+        bottom:1%;
+        width: 80%;
+       min-height: 130px;
+      }
+      .form{
+          height: auto;
+          width: 89%;
+        left: 0%;
+        top: 35%;
+      }
+      .topo{
+        padding-top: 5px;
+      }
+      #altura, #peso{
+        width: 83%;
+      }
+      #peso{
+          bottom: 40%;
+      }
+      #alt{
+          top: 16%;
+          right: 75%;
+      }
+      #pes{
+        right: 80%;
+      }
+      .botao{
+          bottom: 17%;
+          left: 20%;
+      }
+      #status{
+        padding:20px;
+        height: auto;
+      }
+      .erro{
+          top: 63%;
+          right: 30%;
+         
+      }
+      .erro-pes{
+          top: 60%;
+      }
+      .rodape{
+          bottom:-1%;
+          height:auto;
+       
+        width: 99%;
+      }
+    
+    #return{
+      top: 103%;
+       left: 1%;
+       padding: 2px;
+       margin: 15px;
+    }
+}
