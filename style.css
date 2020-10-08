@@ -249,7 +249,7 @@ cursor: auto;
        left: 5%;
     }
 }
-@media screen and (min-width:200px) and (max-width: 500px){
+@media screen and (max-height:700px)and (min-width:200px) and (max-width: 500px){
     .flip-box {
         left:6%;
         top: 36%;
@@ -280,7 +280,7 @@ cursor: auto;
         right: 80%;
       }
       .botao{
-          bottom: 17%;
+          bottom: 20%;
           left: 20%;
       }
       #status{
@@ -296,16 +296,17 @@ cursor: auto;
           top: 60%;
       }
       .rodape{
-          bottom:-1%;
+          bottom:-3;
           height:auto;
-       
+       padding-bottom: 15px;
         width: 99%;
       }
     
     #return{
-      top: 103%;
+      top: 95%;
        left: 1%;
        padding: 2px;
        margin: 15px;
     }
 }
+
